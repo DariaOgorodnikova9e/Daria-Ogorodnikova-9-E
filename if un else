@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	
+	/*cout << "Enter your cat and dog age:)" << endl;
+
+	int catage, dogage;
+	
+	cin >> catage >> dogage;
+
+	if (catage >0 && catage <= 18) { cout << "Fine, cat age" << endl; }
+	else cout << "sorry...WHAT?!" << endl;
+
+	if (dogage > 0 && dogage <= 20) { cout << "Fine, dog age" << endl; }
+	else cout << "sorry...WHAT?!" << endl;
+	cout << "exit!";*/
+	/*
+	int rate, age, height;
+
+	cout << "Your rate:" << endl;
+	cin >> rate;
+	
+	if (rate > 0 && rate <= 10) { cout << "Fine rate" << endl; }
+	else cout << "WRONG RATE" << endl;
+	
+	cout << "Your age:" << endl;
+	cin >> age;
+
+	if (age >6 && age <= 18) { cout << "Fine age" << endl; }
+	else cout << "WRONG AGE" << endl;
+
+	cout << "Your height (cm):" << endl;
+	cin >> height;
+
+	if (height >120&& height <= 200) { cout << "Fine height" << endl; }
+	else cout << "WRONG HEIGHT" << endl;*/
+
+	//int age = 1;
+	//string p = "K1", pin;
+	//cin >> pin;
+	//if (p == pin) { cout << "ok" << endl << age; }
+	//else cout << "wrong";
+
+	string n = "Daria", name;
+	string p = "gnom228", parol;
+
+
+	cout << "____________"<<endl<<"Login:";
+	cin >> name;
+	cout << endl;
+	cout << "Password:";
+	cin >> parol;
+	cout << "_____________" << endl;
+	if (n == name &&p == parol) { cout << "age 15"; }
+	else cout << "wrong login or password";
+
+
+
+}
