@@ -1,0 +1,90 @@
+#include<iostream>
+using namespace std;
+
+int main()
+
+
+// 1 uzd
+/* {
+	cout << "Enter numbers: " << endl;
+
+	int num1, num2;
+
+	cin >> num1 >> num2;
+
+	cout << "_________________________" << endl;
+
+	if (num1 > num2) { cout << "Max " << num1 << endl << "Min " << num2 << endl; }
+	else cout << "Max " << num2 << endl << "Min " << num1 << endl;
+
+	if(num1<0&& num2 < 0) { cout << "Numbers or one of the numbers is negative" << endl; }
+	else cout << "Numbers or one of the numbers is positive" << endl;
+
+	if (num1 % 2 == 0) { cout << "First number is even number" << endl; }
+	else cout << "First number is odd number" << endl;
+
+	if (num2 % 2 == 0) { cout << "Second number is even number" << endl; }
+	else cout << "Second number is odd number" << endl;
+
+	cout << "_________________________" << endl;
+}*/
+
+//2 uzd
+/*
+{
+	cout << "Enter grade(From 0 to 100):" << endl;
+
+	int grade;
+	cin >> grade;
+	cout << "Grade:";
+	if (grade >= 90 && grade < 101) { cout << "A" << endl; }
+	if (grade >= 80 && grade < 90) { cout << "B" << endl; }
+	if (grade >= 70 && grade < 80) { cout << "C" << endl; }
+	if (grade >= 60 && grade < 70) { cout << "D" << endl; }
+	if (grade >= 50&& grade<60) { cout << "E" << endl; }
+	if (grade < 40 && grade >0) { cout << "F" << endl; }
+	if (grade > 101) { cout << "error" << endl; }
+
+}*/
+
+// 3 uzd
+//{cout << "Day of the week( from 1 to 7) and month of the year ( from 1 to 12):" << endl;
+//	
+//	int sk1, sk2;
+//	cin >> sk1 >> sk2;
+//
+//	if (sk1 == 1) { cout << "Monday" << endl; }
+//	if (sk1 == 2) { cout << "Tuesday" << endl; }
+//	if (sk1 == 3) { cout << "Wednesday" << endl; }
+//	if (sk1 == 4) { cout << "Thursday" << endl; }
+//	if (sk1 == 5) { cout << "Friday" << endl; }
+//	if (sk1 == 6) { cout << "Saturday" << endl; }
+//	if (sk1 == 7) { cout << "Sunday" << endl; }
+//	if (sk2 == 1) { cout << "January" << endl; }
+//	if (sk2 == 2) { cout << "February" << endl; }
+//	if (sk2 == 3) { cout << "March" << endl; }
+//	if (sk2 == 4) { cout << "April" << endl; }
+//	if (sk2 == 5) { cout << "May" << endl; }
+//	if (sk2 == 6) { cout << "June" << endl; }
+//	if (sk2 == 7) { cout << "July" << endl; }
+//	if (sk2 == 8) { cout << "August" << endl; }
+//	if (sk2 == 9) { cout << "September" << endl; }
+//	if (sk2 == 10) { cout << "October" << endl; }
+//	if (sk2 == 11) { cout << "November" << endl; }
+//	if (sk2 == 12) { cout << "December" << endl; }
+//
+//}
+
+// 4 uzd
+
+{
+	cout << "Write triangle sides:"<< endl;
+
+	int s1, s2, s3;
+	cin>> s1>> s2>> s3;
+	if (s1 == s2) { cout << "Equilateral" << endl; }
+	if (s2 == s3) { cout << "Equilateral" << endl; }
+	if (s3 == s1) { cout << "Equilateral" << endl; }
+	if (s1 == s2 && s2 == s3 ) { cout << "Isosceles" << endl; }
+
+}
