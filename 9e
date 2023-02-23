@@ -71,4 +71,31 @@ int main()
 cout << a[4] * a[4] << endl;
 
 }*/
-{
+/* {
+     //5.uzd
+	vector <string> s{ "Lacplesa diena-","Latvijas Republikas proklamesanas diena-" };
+	vector <string> d{ "11. novembris","18. novembris " };
+	cout << "Do you want to see publick holidays?(yes/no)" << endl;
+	string ans;
+	cin >> ans;
+	if (ans == "yes") cout << s[0] <<  d[0] << endl << s[1] << d[1];
+	else cout << "Good Bye!"; exit(0);
+
+}*/
+/* {
+    //
+	vector <int> v{ +1,-2, -4, 2, -5, 6, -9, 3,-6,30 };
+	int i = 0;
+	if (v[0] > 0)i++;
+	if (v[1] > 0)i++;
+	if (v[2] > 0)i++;
+	if (v[3] > 0)i++;
+	if (v[4] > 0)i++;
+	if (v[5] > 0)i++;
+	if (v[6] > 0)i++;
+	if (v[7] > 0)i++;
+	if (v[8] > 0)i++;
+	if (v[9] > 0)i++;
+	cout << i;
+}*/
+
